@@ -32,8 +32,7 @@ namespace EmployeeDetails
             foreach (Employee o in list)
             {
                 Console.Write("{0} \t {1}", o.EmpCode, o.EmpName);
-                Console.WriteLine();
-               
+                Console.WriteLine();    
             }
             Console.ReadKey();
 
